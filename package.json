@@ -1,0 +1,21 @@
+{
+  "name": "takashima-haruki-site",
+  "version": "1.0.0",
+  "description": "髙島春樹の公式サイト統合プロジェクト",
+  "private": true,
+  "workspaces": [
+    "creative-lab/astro-migration"
+  ],
+  "scripts": {
+    "dev:creative-lab": "cd creative-lab/astro-migration && npm run dev",
+    "build:creative-lab": "cd creative-lab/astro-migration && npm run build",
+    "preview:creative-lab": "cd creative-lab/astro-migration && npm run preview",
+    "install:creative-lab": "cd creative-lab/astro-migration && npm install"
+  },
+  "keywords": ["piano", "web-development", "astro", "portfolio"],
+  "author": "髙島春樹 (Takashima Haruki)",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
